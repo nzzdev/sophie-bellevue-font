@@ -1,37 +1,42 @@
-$font-family-sans: nzz-sans-serif, Helvetica, Arial;
-$font-family-serif: nzz-serif, Georgia;
+$font-family-sans-display: var(--bellevue-font-sans-display);
+$font-family-sans: var(--bellevue-font-sans);
+$font-family-serif-display: var(--bellevue-font-serif-display);
+$font-family-serif: var(--bellevue-font-serif);
 
 // --q-primary-text-color is defined in nzzdev/sophie-q
 // .s-q-item
-$font-color: var(--q-primary-text-color, #000000);
+$font-color: var(--black, #060821);
 
-$font-weight-serif-regular: 100;
-$font-weight-serif-bold: 500;
+$font-weight-serif-regular: 300;
+$font-weight-serif-medium: 500;
+$font-weight-serif-bold: 700;
 
-$font-weight-sans-light: 50;
-$font-weight-sans-regular: 100;
-$font-weight-sans-bold: 500;
+$font-weight-sans-light: 100;
+$font-weight-sans-regular: 300;
+$font-weight-sans-medium: 500;
+$font-weight-sans-semibold: 600;
+$font-weight-sans-bold: 700;
 
-$font-text-s-size: 18px;
-$font-text-s-line-height: 28px;
+$font-text-s-size: 1rem;
+$font-text-s-line-height: 1.5rem;
 
-$font-text-size: 20px;
-$font-text-line-height: 32px;
+$font-text-size: 1.125rem;
+$font-text-line-height: 1.5625rem;
 
-$font-note-s-size: 12px;
-$font-note-s-line-height: 16px;
+$font-note-s-size: 0.75rem;
+$font-note-s-line-height: 1.25rem;
 
-$font-note-size: 14px;
-$font-note-line-height: 20px;
+$font-note-size: .875rem;
+$font-note-line-height: 1.3125rem;
 
-$font-title-s-size: 14px;
-$font-title-s-line-height: 22px;
+$font-title-s-size: .875rem;
+$font-title-s-line-height: 1.3125rem;
 
-$font-title-size: 16px;
-$font-title-line-height: 22px;
+$font-title-size: 1.125rem;
+$font-title-line-height: 1.5625rem;
 
-$font-title-l-size: 18px;
-$font-title-l-line-height: 24px;
+$font-title-l-size: 1.5rem;
+$font-title-l-line-height: 1.8125rem;
 
 // Based on https://www.figma.com/file/QqppDkF7HeCWmet6IS7Y4Y/NZZ-Design-System-2020?node-id=22%3A136
 $font-ui-size: 1rem; // This is currently 16px
