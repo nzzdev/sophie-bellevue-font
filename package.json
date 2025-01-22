@@ -14,6 +14,7 @@
   },
   "sophie": {
     "dependencies": {
+      "sophie-color": "1.3.x"
     }
   }
 }
