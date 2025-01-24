@@ -1,7 +1,7 @@
 {
-  "name": "sophie-font",
+  "name": "sophie-bellevue-font",
   "version": "1.4.6",
-  "description": "Sophie font styles",
+  "description": "Sophie font styles for Bellevue",
   "main": "index.js",
   "scripts": {
     "test": "node tests/sass.js",
